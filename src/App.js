@@ -1,7 +1,8 @@
 import './App.css';
 import Parent from './components/Parent';
-import React, { useState } from 'react';
+import React from 'react';
 import Greeting from './components/Greeting';
+import RenderList from './components/renderList';
 function App() {
   return (
     <div className="App">
@@ -9,6 +10,7 @@ function App() {
       <Parent name={'张三'} />
       {/*  条件渲染 */}
       <Greeting isLoggedIn={true} />
+      <RenderList />
     </div>
   );
 }
