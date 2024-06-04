@@ -8,6 +8,7 @@ import Category from './components/Category/index1';
 import Chat from './components/FancyBorder/Chat';
 import Contacts from './components/FancyBorder/Contacts';
 import SplitPane from "./components/FancyBorder/index1";
+import ViewModel from "./components/ViewModel";
 function App() {
   return (
     <div className="App">
@@ -25,6 +26,7 @@ function App() {
           <Contacts/>
       }
       />
+      <ViewModel />
     </div>
   );
 }

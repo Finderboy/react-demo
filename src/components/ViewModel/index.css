@@ -1,0 +1,9 @@
+.title {
+    display: flex;
+    flex-direction: row;
+    span {
+        min-width: 100px;
+        margin-right: 10px;
+        text-align: center;
+    }
+}
