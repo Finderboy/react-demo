@@ -5,6 +5,9 @@ import Greeting from './components/Greeting';
 import RenderList from './components/renderList';
 // import Form from './components/Form';
 import Category from './components/Category/index1';
+import Chat from './components/FancyBorder/Chat';
+import Contacts from './components/FancyBorder/Contacts';
+import SplitPane from "./components/FancyBorder/index1";
 function App() {
   return (
     <div className="App">
@@ -14,6 +17,14 @@ function App() {
       <Greeting isLoggedIn={true} />
       <RenderList />
       <Category />
+      <SplitPane
+        left={
+          <Chat/>
+      }
+        right={
+          <Contacts/>
+      }
+      />
     </div>
   );
 }
