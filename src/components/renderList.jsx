@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, List, Typography } from 'antd';
+import { List, Typography } from 'antd';
 
 const data = [
     'Racing car sprays burning fuel into crowd.',
@@ -22,7 +22,7 @@ const renderList = () => {
                     </List.Item>
                 )}
             />
-            <Button style={{ marginTop: '20px' }}>点击</Button>
+            {/*<Button style={{ marginTop: '20px' }}>点击</Button>*/}
         </>
     )
 }

@@ -3,7 +3,8 @@ import Parent from './components/Parent';
 import React from 'react';
 import Greeting from './components/Greeting';
 import RenderList from './components/renderList';
-import Form from './components/Form';
+// import Form from './components/Form';
+import Category from './components/Category/index1';
 function App() {
   return (
     <div className="App">
@@ -12,7 +13,7 @@ function App() {
       {/*  条件渲染 */}
       <Greeting isLoggedIn={true} />
       <RenderList />
-      <Form />
+      <Category />
     </div>
   );
 }
