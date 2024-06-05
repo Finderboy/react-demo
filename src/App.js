@@ -11,6 +11,7 @@ import SplitPane from "./components/FancyBorder/index1";
 import ViewModel from "./components/ViewModel";
 import withLoading from "./components/Hoc/index";
 import DataList from "./components/Hoc/DataList";
+import Parents from "./components/callback/index";
 function App() {
     const DataListWithLoading = withLoading(DataList);
     const [data, setData] = useState(['1','2','3','4']);
@@ -33,6 +34,7 @@ function App() {
       />
       <ViewModel />
       <DataListWithLoading data={data} isLoading={isLoading} />
+      <Parents />
     </div>
   );
 }
